@@ -23,5 +23,19 @@ As a student and developer, I approached this case as if I was building the base
 The system runs on a Linux machine with Bluetooth tools (`hcitool`, `hciconfig`), and you can monitor the broadcast using apps like **LightBlue** on your phone.
 
 ---
+---
+
+## 🗂️ Extra Files
+
+- 📄 `output.txt`  
+  Sample console output of the program during runtime.  
+  Includes sensor readings, calculated stats, and BLE payload logs.
+
+- 🧩 `Borda_Chart.pdf`  
+  Visual chart of the system architecture.  
+
+
+These files are included in the repository to help understand how the system works internally and how it communicates over BLE.
+
 
 This project helped me understand how embedded systems manage real-time data, how buffers and encoding work, and how even limited BLE packets can carry rich information if structured wisely.
